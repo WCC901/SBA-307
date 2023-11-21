@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./list.css">
+    <title>Snakes.com</title>
+</head>
+<style>
+    body {
+        background-color: #6AA84F;
+    }
+
+    nav {
+        font-size: 18pt;
+        color: white;
+        background-color: #274E13;
+    } 
+
+    tr:nth-child(even) {
+        background-color: #38761D;
+    }
+
+    thead {
+        background-color: #274E13;
+        color:white;
+    }
+
+    #gif {
+      position: absolute;
+      bottom: 0;
+      left: 40%;
+    }
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"><img src="./logo.png" width=5% alt="Snake logo"></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./list.html">Inventory List</a>
+            </li>
+          </ul>
+            <a href="./signIn.html"><button class="btn btn-outline-success">Sign Up/Log In</button></a>
+        </div>
+      </div>
+    </nav><br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Species</th>
+          <th scope="col">Scale Color/Pattern</th>
+          <th scope="col">Current Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Danielson</th>
+          <td>Anaconda</td>
+          <td>Brown with Black Spots</td>
+          <td>$2,856</td>
+        </tr>
+        <tr>
+          <th scope="row">Hayes</th>
+          <td>Asp</td>
+          <td>Brown with Black Lines</td>
+          <td>$1,764</td>
+        </tr>
+        <tr>
+          <th scope="row">Harwood</th>
+          <td>Coral Snake</td>
+          <td>Black, Yellow, and Red Stripes</td>
+          <td>$991</td>
+        </tr>
+        <tr>
+          <th scope="row">Perez</th>
+          <td>Forest Flame Snake</td>
+          <td>Red and Black Stripes</td>
+          <td>$2,265</td>
+        </tr>
+        <tr>
+          <th scope="row">Fletcher</th>
+          <td>Green Snake</td>
+          <td>Green</td>
+          <td>$750</td>
+        </tr>
+      </tbody>
+    </table>
+    <img id="gif" src="./holding.gif" alt="Hands holding a snake gif">  
+</body>
+</html>

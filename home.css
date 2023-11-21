@@ -1,0 +1,38 @@
+body {
+    background-color: #6AA84F;
+}
+
+#info {
+    text-align: center;
+    font-size: larger;
+}
+
+#info p {
+    border: 3px solid #274E13;
+    background-color: #38761D;
+    color: white;
+    width: 70%;
+    padding: 1%;
+    margin: auto;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainImgs {
+    border: 3px solid #274E13;
+    border-radius: 15%;
+    box-shadow: 5px 5px 15px;
+}
+
+footer {
+    color: white;
+    background-color: #38761D;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+

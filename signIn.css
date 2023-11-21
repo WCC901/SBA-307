@@ -1,0 +1,83 @@
+#main {
+    display: flex;
+}
+
+body {
+    background-color: #6AA84F;
+}
+
+img {
+    width: 60px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#container input {
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    padding: 10px;
+}
+
+nav {
+    font-size: 18pt;
+    color: white;
+    background-color: #274E13;
+}
+
+#container2 input {
+    padding:10px;
+}
+
+#container2 .textField {
+    padding: 5px;
+}
+
+#suContainer2 .textField .signText{
+    text-align: left;
+    font-size: medium;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.box {
+    color: white;
+    border: 4px solid #274E13;
+    background-color: #38761D;
+    border-radius: 25px;
+    width: fit-content;
+    text-align: center;
+    padding: 100px;
+    margin:auto;
+    box-shadow: 7px 7px 7px gray;
+}
+
+button {
+    border: none;
+    background: steelblue;
+    color: white;
+    padding: 10px;
+    width: 100%
+}
+
+#suContainer button {
+    position: relative;
+    top: 20px;
+    padding: 12px;
+}
+
+.signText {
+    text-align: left;
+}
+
+select {
+    width: 100%;
+}
